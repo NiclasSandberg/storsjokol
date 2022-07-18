@@ -1,0 +1,55 @@
+.socialMedia {
+    
+}
+.kontaktContainer {
+ display:flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.iframeContainer{
+  padding-bottom:2rem;
+  width:80vw;
+  height:30vh;
+}
+
+.contactInfo {
+  padding-bottom:1.5rem;
+}
+.contactInfo li span a {
+    text-decoration: none;
+    list-style: unset;
+    color:white;
+    cursor:pointer;
+    
+}
+
+.socialContainer{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:1rem;
+  }
+
+  a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+  }
+
+  a.social:hover {
+    transform: scale(1.2);
+  }
+
+  a.youtube {
+    color: #FF0000;
+  }
+  
+  a.facebook {
+    color: #4267B2;
+  }
+  
+  a.instagram {
+    color: white;
+  }
+

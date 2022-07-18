@@ -1,0 +1,29 @@
+.burger{
+   display:flex;
+   flex-direction: column;
+   align-items: flex-end;
+}
+@media screen and (min-width: 900px) {
+    .mobileNav{
+        display:none;
+    }
+.burger {
+    display:none;
+  
+}
+}
+
+.mobileNav{
+position: absolute;
+top:0;
+right:0;
+height:100vh;
+width: 100vw;
+background: black;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+   
+}

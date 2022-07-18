@@ -1,0 +1,10 @@
+
+.NavDesktop {
+    display:none;  
+   }
+
+@media screen and (min-width: 900px) {
+.NavDesktop {
+ display:flex;  
+}
+}
