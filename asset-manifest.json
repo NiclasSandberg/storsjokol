@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/NiclasSandberg/storsjokol.git/static/css/main.aa67e68a.chunk.css",
-    "main.js": "/NiclasSandberg/storsjokol.git/static/js/main.471e6dc8.chunk.js",
-    "main.js.map": "/NiclasSandberg/storsjokol.git/static/js/main.471e6dc8.chunk.js.map",
-    "runtime-main.js": "/NiclasSandberg/storsjokol.git/static/js/runtime-main.7fec5712.js",
-    "runtime-main.js.map": "/NiclasSandberg/storsjokol.git/static/js/runtime-main.7fec5712.js.map",
-    "static/js/2.a9e5e2e6.chunk.js": "/NiclasSandberg/storsjokol.git/static/js/2.a9e5e2e6.chunk.js",
-    "static/js/2.a9e5e2e6.chunk.js.map": "/NiclasSandberg/storsjokol.git/static/js/2.a9e5e2e6.chunk.js.map",
-    "index.html": "/NiclasSandberg/storsjokol.git/index.html",
-    "static/css/main.aa67e68a.chunk.css.map": "/NiclasSandberg/storsjokol.git/static/css/main.aa67e68a.chunk.css.map",
-    "static/js/2.a9e5e2e6.chunk.js.LICENSE.txt": "/NiclasSandberg/storsjokol.git/static/js/2.a9e5e2e6.chunk.js.LICENSE.txt",
-    "static/media/Storsjökol_web_foto-Magnus-Stenberg_croped.dea04148.jpg": "/NiclasSandberg/storsjokol.git/static/media/Storsjökol_web_foto-Magnus-Stenberg_croped.dea04148.jpg",
-    "static/media/packmaskin-damm.jpg": "/NiclasSandberg/storsjokol.git/static/media/packmaskin-damm.5fea783d.jpg",
-    "static/media/packmaskin-kol.jpg": "/NiclasSandberg/storsjokol.git/static/media/packmaskin-kol.018b384a.jpg",
-    "static/media/storsjokol-grillkvall.jpg": "/NiclasSandberg/storsjokol.git/static/media/storsjokol-grillkvall.bcaeb061.jpg",
-    "static/media/ved_1170039.jpg": "/NiclasSandberg/storsjokol.git/static/media/ved_1170039.a5ff7aa6.jpg"
+    "main.css": "/NiclasSandberg/storsjokol/static/css/main.aa67e68a.chunk.css",
+    "main.js": "/NiclasSandberg/storsjokol/static/js/main.471e6dc8.chunk.js",
+    "main.js.map": "/NiclasSandberg/storsjokol/static/js/main.471e6dc8.chunk.js.map",
+    "runtime-main.js": "/NiclasSandberg/storsjokol/static/js/runtime-main.35f5c91c.js",
+    "runtime-main.js.map": "/NiclasSandberg/storsjokol/static/js/runtime-main.35f5c91c.js.map",
+    "static/js/2.2817cf34.chunk.js": "/NiclasSandberg/storsjokol/static/js/2.2817cf34.chunk.js",
+    "static/js/2.2817cf34.chunk.js.map": "/NiclasSandberg/storsjokol/static/js/2.2817cf34.chunk.js.map",
+    "index.html": "/NiclasSandberg/storsjokol/index.html",
+    "static/css/main.aa67e68a.chunk.css.map": "/NiclasSandberg/storsjokol/static/css/main.aa67e68a.chunk.css.map",
+    "static/js/2.2817cf34.chunk.js.LICENSE.txt": "/NiclasSandberg/storsjokol/static/js/2.2817cf34.chunk.js.LICENSE.txt",
+    "static/media/Storsjökol_web_foto-Magnus-Stenberg_croped.dea04148.jpg": "/NiclasSandberg/storsjokol/static/media/Storsjökol_web_foto-Magnus-Stenberg_croped.dea04148.jpg",
+    "static/media/packmaskin-damm.jpg": "/NiclasSandberg/storsjokol/static/media/packmaskin-damm.5fea783d.jpg",
+    "static/media/packmaskin-kol.jpg": "/NiclasSandberg/storsjokol/static/media/packmaskin-kol.018b384a.jpg",
+    "static/media/storsjokol-grillkvall.jpg": "/NiclasSandberg/storsjokol/static/media/storsjokol-grillkvall.bcaeb061.jpg",
+    "static/media/ved_1170039.jpg": "/NiclasSandberg/storsjokol/static/media/ved_1170039.a5ff7aa6.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7fec5712.js",
-    "static/js/2.a9e5e2e6.chunk.js",
+    "static/js/runtime-main.35f5c91c.js",
+    "static/js/2.2817cf34.chunk.js",
     "static/css/main.aa67e68a.chunk.css",
     "static/js/main.471e6dc8.chunk.js"
   ]
