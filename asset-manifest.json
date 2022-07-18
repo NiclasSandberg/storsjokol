@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/storsjokol/static/css/main.aa67e68a.chunk.css",
-    "main.js": "/storsjokol/static/js/main.471e6dc8.chunk.js",
-    "main.js.map": "/storsjokol/static/js/main.471e6dc8.chunk.js.map",
+    "main.css": "/storsjokol/static/css/main.04769dc5.chunk.css",
+    "main.js": "/storsjokol/static/js/main.3df5ba51.chunk.js",
+    "main.js.map": "/storsjokol/static/js/main.3df5ba51.chunk.js.map",
     "runtime-main.js": "/storsjokol/static/js/runtime-main.7fc64165.js",
     "runtime-main.js.map": "/storsjokol/static/js/runtime-main.7fc64165.js.map",
     "static/js/2.9eb290a6.chunk.js": "/storsjokol/static/js/2.9eb290a6.chunk.js",
     "static/js/2.9eb290a6.chunk.js.map": "/storsjokol/static/js/2.9eb290a6.chunk.js.map",
     "index.html": "/storsjokol/index.html",
-    "static/css/main.aa67e68a.chunk.css.map": "/storsjokol/static/css/main.aa67e68a.chunk.css.map",
+    "static/css/main.04769dc5.chunk.css.map": "/storsjokol/static/css/main.04769dc5.chunk.css.map",
     "static/js/2.9eb290a6.chunk.js.LICENSE.txt": "/storsjokol/static/js/2.9eb290a6.chunk.js.LICENSE.txt",
     "static/media/Storsjökol_web_foto-Magnus-Stenberg_croped.dea04148.jpg": "/storsjokol/static/media/Storsjökol_web_foto-Magnus-Stenberg_croped.dea04148.jpg",
     "static/media/packmaskin-damm.jpg": "/storsjokol/static/media/packmaskin-damm.5fea783d.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.7fc64165.js",
     "static/js/2.9eb290a6.chunk.js",
-    "static/css/main.aa67e68a.chunk.css",
-    "static/js/main.471e6dc8.chunk.js"
+    "static/css/main.04769dc5.chunk.css",
+    "static/js/main.3df5ba51.chunk.js"
   ]
 }
