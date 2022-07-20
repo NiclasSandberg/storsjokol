@@ -30,7 +30,7 @@ const Burger = (props) => {
    	</div>
 
     
-    <HamburgerSlider {...{ isActive, toggleButton }} size="3rem" barColor="#FFFFFF"/>
+    <HamburgerSlider {...{ isActive, toggleButton }} size="3rem" barColor="#FFFFFF" style={{padding:"0"}}/>
     </div>
     
     </>

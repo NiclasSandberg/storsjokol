@@ -4,6 +4,7 @@ import { useRef } from "react";
 import cole from "../../assets/images/Storsjökol_web_foto-Magnus-Stenberg_croped.jpg";
 import { ArrowheadDown } from "@styled-icons/evaicons-solid/ArrowheadDown";
 import styles from "./Home.module.css";
+import useScroll from '../../customHooks/useScroll.jsx';
 
 const Home = () => {
   // useNav takes in a navLinkId and returns a ref
@@ -12,36 +13,42 @@ const Home = () => {
   // to the corresponding nav childElement
 
   const homeRef = useNav("Hem");
-
+  // Scroll ref for arrow onClick
   const myRef = useRef(null);
+  
+  const { scrollY } = useScroll();  
 
   const [arrow, setArrow] = useState(styles.arrow);
+ 
 
   const executeScroll = () =>
     myRef.current.scrollIntoView({ block: "end", behavior: "smooth" });
     
-  /*function scroll (e) {
-			myRef.current.scrollIntoView({block: "end",behavior: "smooth"});	
-		}*/
-
+   
+    console.log("The device pixel ratio for this browser is: "+window.devicePixelRatio);
   return (
     <>
-      <header ref={homeRef} id='homeContainer' className={styles.homeContainer}>
-        <img id="cole-image" src={cole} alt="unsplash-img" />
+      <header className={styles.homeContainer}>
+        
+        <img ref={homeRef} id='homeContainer'  className={styles.headerImage} src={cole} alt="unsplash-img" />
+     
         <ArrowheadDown
           size="70"
-          className={arrow}
+          
+          className={scrollY < 5 ? styles.arrow : styles.hide}
           onClick={() => {
             executeScroll();
             setArrow(styles.hide);
           }}
         />
+      
       </header>
+
       <div ref={myRef} className={styles.introText}>
         <p >
           Storsjökol är ett kol producerat i Aspås i hjärtat av Jämtland. Kolet
           är producerat från björk som avverkats i närområdet. När du väljer
-          storsjökol väljer du att spara på miljön. I dagsläget importerar
+          Storsjökol väljer du att spara på miljön. I dagsläget importerar
           Sverige 99.8% av all grillkol som används. Ursprung kan inte alltid
           garanteras.
         </p>
@@ -52,6 +59,7 @@ const Home = () => {
           konventionell grillkol i Sverige.
         </p>
         </div>
+        
     </>
   );
 };

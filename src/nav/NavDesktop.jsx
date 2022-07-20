@@ -8,7 +8,6 @@ import Styles from './NavDesktop.module.css';
 
 const NavDesktop = () => {
 
-	let navType = 'u suck';
 	
 	return (
 		<>

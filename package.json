@@ -1,6 +1,6 @@
 {
 	"homepage": "https://niclassandberg.github.io/storsjokol",
-	"name": "Storsjokol temporary",
+	"name": "storsjokol", 
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {

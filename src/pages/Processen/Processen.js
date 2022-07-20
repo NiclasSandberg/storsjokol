@@ -16,11 +16,11 @@ const Processen = () => {
 		<>
 		<section ref={processenRef} id='processenContainer'>
 		
-		<h3>PROCESSEN</h3>
+		<h3>Processen</h3>
 		
 		<div className={styles["film-container"]}>
           <div className={styles["iframe-container"]}>
-            <iframe width="1268" height="713" src="https://www.youtube.com/embed/7BmWKtvHE0A" title="Storsjökol  - Kolfabrik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+            <iframe width="1268" height="713" src="https://www.youtube.com/embed/7BmWKtvHE0A" title="Storsjökol  - Kolfabrik" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>  
             
           </div>
         </div>
