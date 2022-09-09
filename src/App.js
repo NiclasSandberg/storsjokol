@@ -4,6 +4,7 @@ import NavProvider from './context/NavContext';
 import './App.css';
 
 function App() {
+	
 	return (
 		<div className='appContainer'>
 			<NavProvider>

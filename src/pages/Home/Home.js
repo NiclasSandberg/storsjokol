@@ -25,7 +25,7 @@ const Home = () => {
     myRef.current.scrollIntoView({ block: "end", behavior: "smooth" });
     
    
-    console.log("The device pixel ratio for this browser is: "+window.devicePixelRatio);
+    {/*console.log("The device pixel ratio for this browser is: "+window.devicePixelRatio);*/}
   return (
     <>
       <header className={styles.homeContainer}>

@@ -10,8 +10,12 @@ const [clickedImg, setClickedImg] = useState(null);
   const [currentIndex, setCurrentIndex] = useState(null);
 
   const handleClick = (item, index) => {
-    setCurrentIndex(index);
-    setClickedImg(item.link);
+
+    if(window.innerWidth > 770){
+    setCurrentIndex(index)
+    setClickedImg(item.link) 
+  
+    }
   };
 
   const handelRotationRight = () => {
@@ -47,15 +51,27 @@ const [clickedImg, setClickedImg] = useState(null);
     setClickedImg(newItem);
     setCurrentIndex(newIndex);
   };
+
   return (
   <div className="wrapper">
-  {data.map((item, index) => (
+  {data.map((item, index) => ( 
     <div key={index} className="wrapper-images">
-      <img
+      {/*<img 
         src={item.link}
         alt={item.text}
         onClick={() => handleClick(item, index)}
-      />
+  />*/}
+      
+     
+                <img 
+                         srcSet={`${item.linkMobile} 750w, 
+                         ${item.link} 1500w`}
+                        key={index}
+                        alt={item.text}
+                        onClick={() => handleClick(item, index)}
+                    />
+              
+            
     </div>
   ))}
   <div>
