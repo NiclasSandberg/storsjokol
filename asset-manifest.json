@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/storsjokol/static/css/main.0393e07e.chunk.css",
-    "main.js": "/storsjokol/static/js/main.00478234.chunk.js",
-    "main.js.map": "/storsjokol/static/js/main.00478234.chunk.js.map",
+    "main.css": "/storsjokol/static/css/main.886172fa.chunk.css",
+    "main.js": "/storsjokol/static/js/main.18710576.chunk.js",
+    "main.js.map": "/storsjokol/static/js/main.18710576.chunk.js.map",
     "runtime-main.js": "/storsjokol/static/js/runtime-main.7fc64165.js",
     "runtime-main.js.map": "/storsjokol/static/js/runtime-main.7fc64165.js.map",
-    "static/js/2.9eb290a6.chunk.js": "/storsjokol/static/js/2.9eb290a6.chunk.js",
-    "static/js/2.9eb290a6.chunk.js.map": "/storsjokol/static/js/2.9eb290a6.chunk.js.map",
+    "static/js/2.29a7ad14.chunk.js": "/storsjokol/static/js/2.29a7ad14.chunk.js",
+    "static/js/2.29a7ad14.chunk.js.map": "/storsjokol/static/js/2.29a7ad14.chunk.js.map",
     "index.html": "/storsjokol/index.html",
-    "static/css/main.0393e07e.chunk.css.map": "/storsjokol/static/css/main.0393e07e.chunk.css.map",
-    "static/js/2.9eb290a6.chunk.js.LICENSE.txt": "/storsjokol/static/js/2.9eb290a6.chunk.js.LICENSE.txt",
+    "static/css/main.886172fa.chunk.css.map": "/storsjokol/static/css/main.886172fa.chunk.css.map",
+    "static/js/2.29a7ad14.chunk.js.LICENSE.txt": "/storsjokol/static/js/2.29a7ad14.chunk.js.LICENSE.txt",
     "static/media/Storsjökol_web_foto-Magnus-Stenberg_croped.dea04148.jpg": "/storsjokol/static/media/Storsjökol_web_foto-Magnus-Stenberg_croped.dea04148.jpg",
     "static/media/packmaskin-damm.jpg": "/storsjokol/static/media/packmaskin-damm.5fea783d.jpg",
     "static/media/packmaskin-kol.jpg": "/storsjokol/static/media/packmaskin-kol.018b384a.jpg",
     "static/media/storsjokol-grillkvall.jpg": "/storsjokol/static/media/storsjokol-grillkvall.bcaeb061.jpg",
-    "static/media/ved_1170039.jpg": "/storsjokol/static/media/ved_1170039.a5ff7aa6.jpg"
+    "static/media/ved_1500.jpg": "/storsjokol/static/media/ved_1500.a5ff7aa6.jpg",
+    "static/media/ved_750.jpg": "/storsjokol/static/media/ved_750.5d853de7.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7fc64165.js",
-    "static/js/2.9eb290a6.chunk.js",
-    "static/css/main.0393e07e.chunk.css",
-    "static/js/main.00478234.chunk.js"
+    "static/js/2.29a7ad14.chunk.js",
+    "static/css/main.886172fa.chunk.css",
+    "static/js/main.18710576.chunk.js"
   ]
 }
