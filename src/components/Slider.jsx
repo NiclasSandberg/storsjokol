@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState , useEffect } from "react";
 import { data } from "../data/images.js";
 import Modal from "./Modal";
 import style from './Slider.css';
@@ -7,14 +7,15 @@ import style from './Slider.css';
 const Slider = () => {
 
 const [clickedImg, setClickedImg] = useState(null);
-  const [currentIndex, setCurrentIndex] = useState(null);
+const [currentIndex, setCurrentIndex] = useState(null);
+
 
   const handleClick = (item, index) => {
-
+    
     if(window.innerWidth > 770){
     setCurrentIndex(index)
     setClickedImg(item.link) 
-  
+    
     }
   };
 
@@ -25,6 +26,7 @@ const [clickedImg, setClickedImg] = useState(null);
       const newUrl = data[0].link;
       setClickedImg(newUrl);
       return;
+     
     }
     const newIndex = currentIndex + 1;
     const newUrl = data.filter((item) => {
@@ -51,7 +53,7 @@ const [clickedImg, setClickedImg] = useState(null);
     setClickedImg(newItem);
     setCurrentIndex(newIndex);
   };
-
+  
   return (
   <div className="wrapper">
   {data.map((item, index) => ( 
@@ -61,17 +63,14 @@ const [clickedImg, setClickedImg] = useState(null);
         alt={item.text}
         onClick={() => handleClick(item, index)}
   />*/}
-      
-     
-                <img 
+                <img    
+                        className="theImage"
                          srcSet={`${item.linkMobile} 750w, 
                          ${item.link} 1500w`}
                         key={index}
                         alt={item.text}
                         onClick={() => handleClick(item, index)}
-                    />
-              
-            
+                    />      
     </div>
   ))}
   <div>
